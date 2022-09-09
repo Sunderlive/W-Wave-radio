@@ -1,0 +1,275 @@
+.graph-modal__container {
+    background: none;
+    width: auto;
+  }
+
+  .graph-modal__btn-esc-entr {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    border: none;
+  }
+  
+  .graph-modal__btn-esc-entr:focus-visible {
+    outline: none;
+  }
+  
+  .graph-modal__btn-esc-entr svg>circle {
+    transition: stroke .3s ease-in-out;
+  }
+  
+  .graph-modal__btn-esc-entr svg>path {
+    transition: stroke .3s ease-in-out;
+  }
+  
+  .graph-modal__btn-esc-entr:focus-visible svg>circle {
+    stroke: #AA9DFA;
+    outline: none;
+  }
+  
+  .graph-modal__btn-esc-entr:hover svg>path {
+    stroke: #AA9DFA
+  }
+  
+  .graph-modal__btn-esc-entr:hover svg>circle {
+    stroke: #AA9DFA
+  }
+  
+  .graph-modal__btn-esc-entr:active svg>path {
+    stroke: #4F28A5
+  }
+  
+  .graph-modal__btn-esc-entr:active svg>circle {
+    stroke: #4F28A5;
+  }
+
+  .graph-modal__entr-title {
+    margin-bottom: 13px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: #fff;
+  }
+
+  .graph-modal-text {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+  }
+  
+  .graph-modal__entr-link-registr {
+    color: #6D31EE;
+  }
+
+  .graph-modal__entr-link-registr {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #6D31EE;
+  }
+  
+
+  .graph-modal__entr-input {
+    display: block;
+    margin-bottom: 30px;
+    padding: 24px 32px;
+    min-width: 526px;
+    color: #A1A6B4;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: #121723;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  .graph-modal__entr-adv-text {
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #fff;
+  }
+  
+  .graph-modal__what-air-block-600 {
+    display: none;
+  }
+  
+  .graph-modal__entr-adv-social-link:first-of-type {
+    position: relative;
+    top: 2px;
+  }
+  
+  .graph-modal__entr-adv-social-link:focus-visible {
+    outline: none;
+  }
+  
+  .graph-modal__entr-adv-social-link:not(:last-child) {
+    margin-right: 41px;
+  }
+
+ .graph-modal__entrance-block {
+    left: calc(50% - 412px);
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 72px;
+    width: 824px;
+    background-color: #121723;
+    color: #fff;
+    z-index: 3;
+    transition: visibility .3s ease-in-out, transform .3s ease-in-out;
+ }
+
+ .graph-modal__entr-btn {
+    margin-bottom: 60px;
+    padding: 25px 54px;
+    background: #6D31EE;
+    border-radius: 40px;
+    border: none;
+    transition: all .3s ease-in-out;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+ }
+
+ .graph-modal__entr-text {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+ }
+
+ .graph-modal__entrance-block::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: calc(100% - 160px);
+    left: 80px;
+    bottom: 216px;
+    background-color: rgba(230, 232, 236, 0.4);
+ }
+
+ @media (max-width: 1023px) {
+
+    .graph-modal__entr-text {
+        margin-bottom: 23px;
+    }
+
+    .graph-modal__entrance-block {
+        width: 539px;
+    }
+    .graph-modal__entr-input {
+       min-width: 459px;
+      }
+
+      .graph-modal__entrance-block {
+        width: 539px;
+        padding-top: 63px;
+        padding-right: 39px;
+        padding-left: 40px;
+        padding-bottom: 54px;
+      }
+      .graph-modal__btn-esc-entr {
+        top: 50px;
+      }
+      .graph-modal__entr-title {
+        margin-bottom: 10px;
+      }
+
+      .graph-modal__entr-btn {
+        margin-bottom: 63px;
+      }
+      .graph-modal__entrance-block::after  {
+        bottom: 197px;
+        left: 60px;
+        width: calc(100% - 120px);
+      }
+
+      .graph-modal__entr-adv-text {
+        margin-bottom: 26px;
+      }
+      
+ }
+
+ @media (max-width: 767px) {
+  .graph-modal__entrance-block {
+    padding-top: 34px;
+    padding-right: 0;
+    padding-left: 17px;
+    padding-bottom: 38px;
+    width: 256px;
+    left: calc(50% - 128px);
+}
+
+.graph-modal__entr-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.graph-modal__entr-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  color: #A1A6B4;
+}
+
+.graph-modal__entr-input {
+  padding: 12px 18px;
+  min-width: auto;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.graph-modal__entr-link-registr {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.graph-modal__btn-esc-entr svg {
+  width: 20px;
+  height: 20px;
+}
+
+.graph-modal__entr-btn {
+  padding: 25px 54px;
+  margin-bottom: 40px;
+  padding: 12px 56px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.graph-modal__entr-adv-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #A1A6B4;
+  margin-bottom: 12px;
+}
+
+.graph-modal__entr-adv-social-link:not(:last-child) {
+  margin-right: 46px;
+}
+
+.graph-modal__entrance-block::after {
+  bottom: 146px;
+  left: 38px;
+  width: calc(100% - 80px);
+}
+
+
+ }
