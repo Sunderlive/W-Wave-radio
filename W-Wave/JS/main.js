@@ -15,8 +15,6 @@ function activateSearchField() {
   const searchInput = document.querySelector('.search-form__input');
   const headerNav = document.querySelector('.header-top__nav');
 
-
-
   searchBtn.addEventListener('click', (e) => {
     e.preventDefault();
     searchInput.classList.toggle('search-form__input--active');
